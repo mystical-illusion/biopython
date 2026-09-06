@@ -115,12 +115,14 @@ class HSP(Alignment):
     """
 
     def __repr__(self):
+        """Return a string representation showing the target, query, and alignment shape."""
         query = self.query
         target = self.target
         n, m = self.shape
         return f"<Bio.Blast.HSP target.id={target.id!r} query.id={query.id!r}; {n} rows x {m} columns>"
 
     def __str__(self):
+        """Return a formatted string showing query/target info, scores, and the alignment."""
         alignment_text = super().__str__()
         query = self.query
         target = self.target
@@ -457,6 +459,7 @@ class Record(list):
             return f"<Bio.Blast.Record query.id={query_id!r}; {nhits} hits>"
 
     def __str__(self):
+        """Return a multi-line string summary of the record's program, query, and hits."""
         lines = []
         try:
             version = self.version
@@ -790,9 +793,11 @@ class Records(UserList):
         del self._stream
 
     def __iter__(self):
+        """Return the current instance as its own iterator."""
         return self
 
     def __next__(self):
+        """Return the next parsed record."""
         if self._loaded is True:
             try:
                 record = self._records[self._index]

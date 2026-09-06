@@ -10,8 +10,25 @@ https://www.open-bio.org/category/obf-projects/biopython/
 
 The latest news is at the top of this file.
 
-(In progress, not yet released): Biopython 1.88
+(In progress, not yet released): Biopython 1.89
 ===============================================
+
+This release of Biopython supports Python 3.10, 3.11, 3.12, 3.13, 3.14 and the
+Python 3.15 release candidate. It has also been tested on PyPy3.10 v7.3.19, as
+well as Python 3.11+ on Windows for ARM64. Python 3.10 is approaching end of
+life, our support for it is now deprecated.
+
+6 August 2026: Biopython 1.88
+=============================
+
+This release of Biopython supports Python 3.10, 3.11, 3.12, 3.13, 3.14 and the
+Python 3.15 release candidate. It has also been tested on PyPy3.10 v7.3.19.
+Python 3.10 is approaching end of life, our support for it is now deprecated.
+
+The primary driver for this release is a security fix to remove the use of
+Python's built-in function `eval` following a report by email from independent
+security researcher Anand Patil. This demonstrated arbitrary code execution
+via the `Bio.Nexus` NEXUS parser.
 
 Additionally, a number of small bugs and typos have been fixed with additions
 to the test suite and type annotations.
@@ -19,12 +36,17 @@ to the test suite and type annotations.
 Many thanks to the Biopython developers and community for making this release
 possible, especially the following contributors:
 
-- Peter Cock
 - Al Fattah Suyadi (first contribution)
 - Laura Piñero Roig (first contribution)
+- Marcus Campbell (first contribution)
+- Michiel de Hoon
+- Peter Cock
 
 30 March 2026: Biopython 1.87
 =============================
+
+This release of Biopython supports Python 3.10, 3.11, 3.12, 3.13 and 3.14.
+It has also been tested on PyPy3.10 v7.3.19.
 
 Migrated from ``setup.py`` to ``pyproject.toml`` for packaging configuration.
 
@@ -37,12 +59,12 @@ to the test suite and type annotations.
 Many thanks to the Biopython developers and community for making this release
 possible, especially the following contributors:
 
+- Manuel Lera-Ramirez
 - Michiel de Hoon
 - Peter Cock
+- Sebastian Pipping
 - Timothy Dennis (first contribution)
 - Ziyan Rao (first contribution)
-- Manuel Lera-Ramirez
-- Sebastian Pipping
 
 28 October 2025: Biopython 1.86
 ===============================
@@ -95,11 +117,11 @@ Many thanks to the Biopython developers and community for making this release
 possible, especially the following contributors:
 
 - Cassie Bastress (first contribution)
-- Rachel Stern (first contribution)
 - Fabio Zanini
 - Michiel de Hoon
 - Oliver Wissett (first contribution)
 - Peter Cock
+- Rachel Stern (first contribution)
 - Samuel Prince (first contribution)
 
 15 January 2025: Biopython 1.85

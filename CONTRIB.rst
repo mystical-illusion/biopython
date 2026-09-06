@@ -242,6 +242,7 @@ please open an issue on GitHub or mention it on the mailing list.
 - Marc Colosimo <mcolosimo at domain mitre.org>
 - Marcin Magnus <https://github.com/mmagnus>
 - Marco Galardini <https://github.com/mgalardini>
+- Marcus Campbell <https://github.com/marcus-campbell>
 - Marie Crane <https://github.com/mariecrane>
 - Mark Amery <https://github.com/ExplodingCabbage>
 - Markus Piotrowski <https://github.com/MarkusPiotrowski>
@@ -275,8 +276,10 @@ please open an issue on GitHub or mention it on the mailing list.
 - Nathan J. Edwards <nje5 at edu domain georgetown>
 - Neil P. <https://github.com/npars>
 - Nick Negretti <https://github.com/nimne>
+- Nicola Trinca <https://github.com/trinik15>
 - Nicolas Fontrodona <https://github.com/NFontrodona>
 - Nigel Delaney <https://github.com/evolvedmicrobe>
+- Nikhil Dabas <https://github.com/ndabas>
 - Noam Kremen <https://github.com/noamkremen>
 - Oliver Wissett <https://github.com/OWissett>
 - Olivier Morelle <https://github.com/Oli4>
@@ -305,10 +308,12 @@ please open an issue on GitHub or mention it on the mailing list.
 - Robert Ernst <https://github.com/rernst>
 - Robert Sawicki <https://github.com/Battlesheepu>
 - Rodrigo Dorantes-Gilardi <https://github.com/rodogi>
+- Rohit Kattimani <https://github.com/RohitKattimani>
 - Rona Costello <https://github.com/RonaCostello>
 - Rudolf Koopmann <https://github.com/koopmann>
 - Ryan Stecher <https://github.com/rystecher>
 - Sacha Laurent <https://github.com/Cashalow>
+- Saiyma Sarmin <https://github.com/ssarmin>
 - Saket Choudhary <https://github.com/saketkc>
 - Samuel Prince <https://github.com/drs>
 - Santeri Paajanen <https://github.com/paajasan>
