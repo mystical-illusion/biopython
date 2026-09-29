@@ -115,12 +115,14 @@ class HSP(Alignment):
     """
 
     def __repr__(self):
+        """Return a text description showing the target, query, and shape of the alignment"""
         query = self.query
         target = self.target
         n, m = self.shape
         return f"<Bio.Blast.HSP target.id={target.id!r} query.id={query.id!r}; {n} rows x {m} columns>"
 
     def __str__(self):
+        """Return a formatted string showing query/target info, and the alignment"""
         alignment_text = super().__str__()
         query = self.query
         target = self.target
